@@ -36,6 +36,95 @@
 *.exe
 *.out
 *.app
+*.i*86
+*.x86_64
+*.hex
 
 # debug information files
 *.dwo
+
+# Build directories
+build/
+Build/
+cmake-build-*/
+out/
+bin/
+obj/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# VSCode configuration
+.vscode/
+.vs/
+
+# Windows system files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+*.vcxproj.filters
+*.tlog/
+*.log
+*.sdf
+*.opensdf
+*.vspscc
+*.vssscc
+.ipch/
+aps/
+*.ncb
+*.opendb
+
+# Qt related (如果使用Qt)
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+*.qm
+*.rcc
+
+# Doxygen
+doc/html/
+doc/latex/
+doc/man/
+doc/xml/
+Doxyfile.bak
+
+# Clangd
+.clangd/
+compile_commands.json
+
+# Ninja build files
+build.ninja
+rules.ninja
+.ninja_deps
+.ninja_log
+
+# Misc
+*.swp
+*.swo
+*~
+.DS_Store
